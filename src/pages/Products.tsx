@@ -213,23 +213,21 @@ const Products = () => {
                     </span>
                     <h3 className="text-white text-xl font-bold mb-1">{product.name}</h3>
                     <p className="text-white/80 text-sm mb-2">{product.description}</p>
-                    <p className="text-luxury-maroon font-bold">{product.price}</p>
+                    <p className="text-white font-bold">{product.price}</p>
                     <a 
-                      href="#contact" 
+                      href="https://wa.me/+1234567890?text=Hi, I'm interested in the product: ${product.name}" 
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="mt-2 inline-block text-sm text-white bg-luxury-maroon px-4 py-2 rounded hover:bg-luxury-maroon/90 transition-colors"
                     >
-                      Inquire Now
+                      Inquire on WhatsApp
                     </a>
                   </div>
+                  
                   <div className="p-4 relative z-0">
                     <h3 className="font-bold text-luxury-black">{product.name}</h3>
                     <p className="text-luxury-maroon font-medium mt-1">{product.price}</p>
-                    <Link 
-                      to="#contact" 
-                      className="mt-4 inline-block text-sm text-luxury-maroon border-b border-luxury-maroon hover:text-luxury-black hover:border-luxury-black transition-colors"
-                    >
-                      Inquire Now
-                    </Link>
+                    
                   </div>
                 </div>
               </div>

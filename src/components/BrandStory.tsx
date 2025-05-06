@@ -38,23 +38,19 @@ const BrandStory = () => {
             </p>
             
             <div className="flex gap-6 items-center">
-              <div className="text-center">
-                <h3 className="text-luxury-gold text-4xl font-playfair font-bold">12+</h3>
-                <p className="text-luxury-charcoal text-sm">Years of Excellence</p>
-              </div>
               
               <div className="w-[1px] h-16 bg-luxury-gold/30"></div>
               
               <div className="text-center">
-                <h3 className="text-luxury-gold text-4xl font-playfair font-bold">100%</h3>
+                <h3 className="text-luxury-maroon text-4xl font-playfair font-bold">100%</h3>
                 <p className="text-luxury-charcoal text-sm">Handcrafted</p>
               </div>
               
               <div className="w-[1px] h-16 bg-luxury-gold/30"></div>
               
               <div className="text-center">
-                <h3 className="text-luxury-gold text-4xl font-playfair font-bold">50+</h3>
-                <p className="text-luxury-charcoal text-sm">Designs</p>
+                <h3 className="text-luxury-maroon text-4xl font-playfair font-bold">100%</h3>
+                <p className="text-luxury-charcoal text-sm">Morrocan Brand</p>
               </div>
             </div>
           </div>
