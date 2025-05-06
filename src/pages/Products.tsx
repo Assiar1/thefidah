@@ -32,29 +32,15 @@ const Products = () => {
       id: 'necklaces',
       name: 'Necklaces',
       icon: <GemIcon size={24} />,
-      image: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/Eye of GOD chain.jpg',
       description: 'Elegant necklaces crafted from the finest materials',
-    },
-    {
-      id: 'rings',
-      name: 'Rings',
-      icon: <CircleIcon size={24} />,
-      image: 'https://images.unsplash.com/photo-1586104202915-3ea40b71571e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Timeless rings for any occasion',
-    },
-    {
-      id: 'earrings',
-      name: 'Earrings',
-      icon: <DiamondIcon size={24} />,
-      image: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Statement earrings that capture the light',
     },
     {
       id: 'bracelets',
       name: 'Bracelets',
       icon: <TagIcon size={24} />,
-      image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Sophisticated bracelets for the modern woman',
+      image: '/Eye of god bracelet.jpg',
+      description: 'Sophisticated bracelets',
     },
   ];
 
@@ -62,67 +48,27 @@ const Products = () => {
   const products: Product[] = [
     {
       id: 1,
-      name: 'Royal Pendant',
+      name: 'Eye of GOD chain',
       category: 'necklaces',
-      image: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/Eye of GOD chain.jpg',
       price: '$1,250',
       description: 'Handcrafted gold pendant with diamond accents'
     },
     {
       id: 2,
-      name: 'Eternal Band',
-      category: 'rings',
-      image: 'https://images.unsplash.com/photo-1586104202915-3ea40b71571e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      price: '$980',
-      description: 'Timeless gold band with intricate detailing'
-    },
-    {
-      id: 3,
-      name: 'Crystal Drops',
-      category: 'earrings',
-      image: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      price: '$750',
-      description: 'Elegant drop earrings with crystal accents'
-    },
-    {
-      id: 4,
-      name: 'Regal Cuff',
+      name: 'Eye of god bracelet',
       category: 'bracelets',
-      image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/Eye of god bracelet.jpg',
       price: '$890',
       description: 'Statement cuff bracelet in polished gold'
     },
     {
-      id: 5,
-      name: 'Midnight Chain',
-      category: 'necklaces',
-      image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      id: 3,
+      name: 'Life bracelet',
+      category: 'bracelets',
+      image: '/Life bracelet.jpg',
       price: '$1,100',
       description: 'Bold gold chain with a contemporary feel'
-    },
-    {
-      id: 6,
-      name: 'Heirloom Diamond',
-      category: 'rings',
-      image: 'https://images.unsplash.com/photo-1598560502225-a754f1f93c05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      price: '$2,450',
-      description: 'Classic solitaire with a brilliant-cut diamond'
-    },
-    {
-      id: 7,
-      name: 'Cascade Hoops',
-      category: 'earrings',
-      image: 'https://images.unsplash.com/photo-1574347366999-08d77e29b0e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      price: '$680',
-      description: 'Oversized hoops with textured finish'
-    },
-    {
-      id: 8,
-      name: 'Infinity Link',
-      category: 'bracelets',
-      image: 'https://images.unsplash.com/photo-1611591437296-f12c07fb47f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      price: '$920',
-      description: 'Delicate link bracelet with infinity charm'
     },
   ];
 
@@ -215,7 +161,7 @@ const Products = () => {
                     <p className="text-white/80 text-sm mb-2">{product.description}</p>
                     <p className="text-white font-bold">{product.price}</p>
                     <a 
-                      href="https://wa.me/+1234567890?text=Hi, I'm interested in the product: ${product.name}" 
+                      href="https://wa.me/+212676101074?text=Hi, I'm interested in the product: ${product.name}" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-2 inline-block text-sm text-white bg-luxury-maroon px-4 py-2 rounded hover:bg-luxury-maroon/90 transition-colors"
@@ -244,7 +190,12 @@ const Products = () => {
             Our collection is crafted for those who appreciate the finest things in life.
             Contact us to arrange a viewing or discuss custom pieces.
           </p>
-          <a href="#contact" className="btn-primary inline-block">
+          <a 
+            href="https://wa.me/+212676101074"
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="btn-primary "
+          >
             Contact Us
           </a>
         </div>

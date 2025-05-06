@@ -35,7 +35,12 @@ const Hero = () => {
               <a href="/products" className="btn-primary flex items-center gap-2">
                 Explore Collection <ArrowRight size={18} />
               </a>
-              <a href="#contact" className="btn-outline">
+              <a 
+            href="https://wa.me/+212676101074"
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="btn-outline text-white"
+          >
                 Contact Us
               </a>
             </div>
@@ -45,7 +50,7 @@ const Hero = () => {
             <div className="absolute -top-20 -right-20 w-64 h-64 bg-luxury-maroon/20 rounded-full blur-3xl"></div>
             <div className="relative z-10 bg-gradient-to-br from-luxury-black to-luxury-charcoal p-1 rounded-lg shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1611085583191-a3b181a88401?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="\necklace.png" 
                 alt="Luxury Jewelry Showcase" 
                 className="rounded-lg transform rotate-2"
               />

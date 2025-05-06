@@ -14,36 +14,28 @@ interface Product {
 const featuredProducts: Product[] = [
   {
     id: 1,
-    name: "Royal Pendant",
-    category: "necklaces",
-    image: "https://images.unsplash.com/photo-1611085583191-a3b181a88401?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    price: "$1,250",
-    description: "Handcrafted gold pendant with diamond accents"
+    name: 'Eye of GOD chain',
+    category: 'necklaces',
+    image: '/Eye of GOD chain.jpg',
+    price: '$1,250',
+    description: 'Handcrafted gold pendant with diamond accents'
   },
   {
-    id: 6,
-    name: "Heirloom Diamond",
-    category: "rings",
-    image: "https://images.unsplash.com/photo-1598560502225-a754f1f93c05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    price: "$2,450",
-    description: "Classic solitaire with a brilliant-cut diamond"
+    id: 2,
+    name: 'Eye of god bracelet',
+    category: 'bracelets',
+    image: '/Eye of god bracelet.jpg',
+    price: '$890',
+    description: 'Statement cuff bracelet in polished gold'
   },
   {
     id: 3,
-    name: "Crystal Drops",
-    category: "earrings",
-    image: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    price: "$750",
-    description: "Elegant drop earrings with crystal accents"
+    name: 'Life bracelet',
+    category: 'bracelets',
+    image: '/Life bracelet.jpg',
+    price: '$1,100',
+    description: 'Bold gold chain with a contemporary feel'
   },
-  {
-    id: 8,
-    name: "Infinity Link",
-    category: "bracelets",
-    image: "https://images.unsplash.com/photo-1611591437296-f12c07fb47f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    price: "$920",
-    description: "Delicate link bracelet with infinity charm"
-  }
 ];
 
 const FeaturedProducts = () => {

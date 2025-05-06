@@ -18,7 +18,7 @@ const BrandStory = () => {
           
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-luxury-black mb-6">
-              Our <span className="text-luxury-gold">Story</span>
+              Our <span className="text-luxury-maroon">Story</span>
             </h2>
             
             <div className="w-16 h-[2px] bg-luxury-gold mb-8"></div>
