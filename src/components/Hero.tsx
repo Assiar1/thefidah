@@ -39,7 +39,7 @@ const Hero = () => {
             href="https://wa.me/+212676101074"
             target="_blank"
             rel="noopener noreferrer" 
-            className="btn-outline text-white"
+            className="btn-outline "
           >
                 Contact Us
               </a>
@@ -60,11 +60,7 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-        <span className="text-white/60 text-sm mb-2">Scroll to discover</span>
-        <div className="w-[1px] h-16 bg-gradient-to-b from-luxury-maroon to-transparent"></div>
-      </div>
+      
     </div>
   );
 };

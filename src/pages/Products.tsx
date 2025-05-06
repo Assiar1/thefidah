@@ -161,7 +161,7 @@ const Products = () => {
                     <p className="text-white/80 text-sm mb-2">{product.description}</p>
                     <p className="text-white font-bold">{product.price}</p>
                     <a 
-                      href="https://wa.me/+212676101074?text=Hi, I'm interested in the product: ${product.name}" 
+                      href={`https://wa.me/+212676101074?text=Hi, I'm interested in the product: ${product.name}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-2 inline-block text-sm text-white bg-luxury-maroon px-4 py-2 rounded hover:bg-luxury-maroon/90 transition-colors"
