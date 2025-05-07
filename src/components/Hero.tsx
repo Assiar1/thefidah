@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              Timeless <span className="text-luxury-maroon">Elegance</span> For The Modern Individual
+            The Trust Behind Every <span className="text-luxury-maroon">Silver</span> piece
             </h1>
             <p className="mt-6 text-lg text-white/80 max-w-md">
               Discover Thefidah's curated collection of handcrafted luxury jewelry that elevates your personal style with sophistication and grace.

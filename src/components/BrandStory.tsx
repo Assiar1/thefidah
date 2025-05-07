@@ -7,11 +7,11 @@ const BrandStory = () => {
           <div className="relative">
             <div className="absolute -top-5 -left-5 w-40 h-40 border border-luxury-gold"></div>
             <div className="relative z-10">
-              <img
-                src="/logo12.png"
-                alt="alfidah craftsmanship"
-                className="w-full object-cover h-[500px]"
-              />
+            <img
+  src="/logo12.png"
+  alt="alfidah craftsmanship"
+  className="w-full object-cover h-[300px] sm:h-[400px] md:h-[500px]"
+/>
             </div>
             <div className="absolute -bottom-5 -right-5 w-40 h-40 border border-luxury-gold"></div>
           </div>
