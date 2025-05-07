@@ -4,32 +4,28 @@ import { Link } from "react-router-dom";
 const products = [
   {
     id: 1,
-    name: "The Sovereign Collection",
-    description: "Handcrafted gold necklaces with precious gems",
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    category: "Necklaces"
+    name: 'Eye of GOD chain',
+    category: 'necklaces',
+    image: '/Eye of GOD chain.jpg',
+    price: '249 DHS',
+    description: 'Handcrafted gold pendant with diamond accents'
   },
   {
     id: 2,
-    name: "Royal Essence",
-    description: "Elegant diamond rings for special occasions",
-    image: "https://images.unsplash.com/photo-1598560502225-a754f1f93c05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    category: "Rings"
+    name: 'Eye of GOD bracelet',
+    category: 'bracelets',
+    image: '/Eye of GOD bracelet.jpg',
+    price: '229 DHS',
+    description: 'Statement cuff bracelet in polished gold'
   },
   {
     id: 3,
-    name: "Luminary Collection",
-    description: "Minimalist earrings with a contemporary edge",
-    image: "https://images.unsplash.com/photo-1574347366999-08d77e29b0e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    category: "Earrings"
+    name: 'Life bracelet',
+    category: 'bracelets',
+    image: '/Life bracelet.jpg',
+    price: '199 DHS',
+    description: 'Bold gold chain with a contemporary feel'
   },
-  {
-    id: 4,
-    name: "Heritage Series",
-    description: "Sophisticated bracelets with timeless design",
-    image: "https://images.unsplash.com/photo-1611591437296-f12c07fb47f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    category: "Bracelets"
-  }
 ];
 
 const ProductGallery = () => {

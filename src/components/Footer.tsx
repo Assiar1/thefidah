@@ -5,7 +5,11 @@ const Footer = () => {
       <div className="luxury-container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-playfair font-bold text-luxury-gold mb-6">Thefidah</h3>
+            <img
+              src="/logo.png"
+              alt="Thefidah Logo"
+              className="h-20 w-auto object-contain mb-6"
+            />
             <p className="text-white/70 max-w-xs">
               Crafting timeless luxury accessories for the discerning individual who appreciates exquisite design and unparalleled quality.
             </p>
@@ -33,12 +37,12 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Contact Information</h4>
             <ul className="space-y-3">
               <li>
-                <a href="tel:+1234567890" className="text-white/70 hover:text-luxury-gold transition-colors">
+                <a href="tel:+212676101074" className="text-white/70 hover:text-luxury-gold transition-colors">
                   +212 676101074
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@alfidah.com" className="text-white/70 hover:text-luxury-gold transition-colors">
+                <a href="mailto:fidahcontact@gmail.com" className="text-white/70 hover:text-luxury-gold transition-colors">
                 fidahcontact@gmail.com
                 </a>
               </li>

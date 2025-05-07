@@ -11,19 +11,19 @@ interface FaqItem {
 const faqItems: FaqItem[] = [
   {
     question: "What materials are used in your jewelry?",
-    answer: "Our jewelry is crafted using only the finest materials, including 18k gold, platinum, and ethically sourced diamonds and gemstones. Each piece undergoes rigorous quality control to ensure exceptional craftsmanship."
+    answer: "Our jewelry is crafted with high-quality materials, with a special focus on authenticity and Moroccan craftsmanship. The fidah (silver pieces) are made from genuine Moroccan silver, composed of 92.5% pure silver—also known as sterling silver. This ensures durability, shine, and a timeless look."
   },
   {
     question: "Do you offer customization options?",
-    answer: "Yes, we offer customization services to create bespoke pieces tailored to your preferences. Our team of expert designers can work with you to create the perfect piece that reflects your personal style."
+    answer: "Yes, we do! We’re happy to offer customization options to make your piece truly unique. Whether it’s a personalized engraving, a specific size, or a custom design idea, we’ll work with you to create something special that reflects your style."
   },
   {
     question: "How do I care for my luxury jewelry?",
-    answer: "We recommend cleaning your jewelry with a soft cloth and mild soap. Store pieces separately to prevent scratches, and avoid exposure to harsh chemicals, perfumes, and excessive moisture. Professional cleaning is recommended annually."
+    answer: "To care for your luxury jewelry, store it in a dry, soft pouch and avoid contact with water, perfumes, or harsh chemicals. Gently polish it with a soft cloth to maintain its shine and beauty over time."
   },
   {
     question: "What is your return policy?",
-    answer: "We offer a 30-day return policy for unworn items in their original packaging. Custom pieces are non-returnable. Please contact our customer service team for specific details regarding returns and exchanges."
+    answer: "We offer a 20-day return policy for items that don’t meet your expectations or if there is a manufacturing defect. Simply contact us within this period, and we’ll assist you with the return process."
   },
   {
     question: "Do you offer international shipping?",
@@ -85,8 +85,13 @@ const FaqSection = () => {
           <p className="text-luxury-black/70 mb-4">
             Still have questions? We're here to help.
           </p>
-          <a href="#contact" className="btn-outline inline-block">
-            Contact Us
+          <a 
+            href="https://wa.me/+212676101074"
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="btn-outline inline-block"
+          >
+            Contact Us on WhatsApp
           </a>
         </div>
       </div>

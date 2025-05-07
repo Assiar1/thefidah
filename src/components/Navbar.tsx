@@ -31,9 +31,14 @@ const Navbar = () => {
       }`}
     >
       <div className="luxury-container flex items-center justify-between">
-        <Link to="/" className="text-3xl font-playfair font-bold text-white">
-          alfidah
-        </Link>
+      <Link to="/" className="flex items-center h-14 md:h-20">
+        <img
+          src="/logo.png"
+          alt="Alfidah Logo"
+          className="h-full w-auto max-h-full object-contain"
+        />
+      </Link>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">

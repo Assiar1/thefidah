@@ -17,24 +17,24 @@ const featuredProducts: Product[] = [
     name: 'Eye of GOD chain',
     category: 'necklaces',
     image: '/Eye of GOD chain.jpg',
-    price: '$1,250',
-    description: 'Handcrafted gold pendant with diamond accents'
+    price: '249 DHS',
+    description: ''
   },
   {
     id: 2,
-    name: 'Eye of god bracelet',
+    name: 'Eye of GOD bracelet',
     category: 'bracelets',
     image: '/Eye of god bracelet.jpg',
-    price: '$890',
-    description: 'Statement cuff bracelet in polished gold'
+    price: '229 DHS',
+    description: ''
   },
   {
     id: 3,
     name: 'Life bracelet',
     category: 'bracelets',
     image: '/Life bracelet.jpg',
-    price: '$1,100',
-    description: 'Bold gold chain with a contemporary feel'
+    price: '199 DHS',
+    description: ''
   },
 ];
 
